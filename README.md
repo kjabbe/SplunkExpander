@@ -1,2 +1,2 @@
 # SplunkExpander
-Expand properies in splunk
+Expand properties in splunk
