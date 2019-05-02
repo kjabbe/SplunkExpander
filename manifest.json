@@ -4,13 +4,10 @@
   "description": "Expand jsexpanders in splunk",
   "version": "1",
   "author": "Jon-Anders Kabbe",
-  "content_scripts": [
-    {
-      "matches": ["http://www.google.com/*"],
-      "js": ["background.js"],
-      "run_at": "document_end"
-    }
-  ],
-  "browser_action": {},
+  "background" : {
+    "scripts" : ["background.js"]
+  },
+  "browser_action": {
+  },
   "permissions": ["activeTab"]
 }
